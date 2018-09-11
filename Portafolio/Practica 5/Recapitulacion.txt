@@ -1,3 +1,0 @@
-Una de las cosas habladas este dia fueron los pasos de como empezar a realizar un sitio Web (o otro proyecto de Sistema) de forma Profesional y segura, con la utilizacion de metodos aprendidos acerca de los requerimientos de un proyecto.
-La utilizacion de las etiquetas importantes para posicionar nuestro sitio y las ventajas que tiene emplear esto.
-La explicacion de los pasos y como debe de crearse nuestro sitio, utilizando un diseño coherente con el requerimiento del Cliente y conforme con el tipo de empresa que esta solicitando el sitio. Igualmente con la leta del Sitio. 
