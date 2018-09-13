@@ -8,19 +8,49 @@ ul{
 	background-color: #0f71ba;
 }
 
-#menu li a{
+#menu li{
+position: relative;
+display: inline-block; /*Esto se escribe para que aparezca uno a la par del otro*/
 font-family:verdana;
 font-size:15px;
-float:left;
-padding:24px;
 background-color:#0f71ba;
 color: #fff;
 text-decoration:none;
-height:18px;
+height:20px;
 }
+
+#menu li >a{
+	display: block; /* Esto es para que sean en bloques*/
+	padding:24px;
+	background-color:#0f71ba;
+	color: #fff;
+	text-decoration:none;
+
+}
+
 
 #menu li a:hover{
 background-color:#f90;
 margin-top:-2px;
 font-weight:bold;
+}
+
+#submenu{ /*Este es el ID de la UL del Submenu para darle el estilo y forma*/
+	position: absolute; /* Esto se agrega para que el los submenus aparezcan de forma acendente*/
+	background-color:#0f71ba;
+	display: none;
+	width: 120%;
+	height: 100%;
+}
+
+#submenu li a{ /*Con esto le asginamos el diseño y forma a las listas de la <LI> y la <A>*/
+	display: block; 
+	padding: 15px;
+	color: #fff;
+	font-family:verdana;
+	text-decoration:none;
+}
+
+#menu li:hover #submenu{ /* Y final mente agregamos que dentro del menu al momento de pasar el puntero aparezcan las listas de nuestro submenu*/
+	display: block;
 }
