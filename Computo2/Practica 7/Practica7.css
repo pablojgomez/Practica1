@@ -3,3 +3,10 @@
 	color: white;
 	padding: 10px;
 }
+
+#encabezado{
+	background-color: #68FB94;
+	color: black;
+	padding: 40px;
+	text-align: center;
+}
