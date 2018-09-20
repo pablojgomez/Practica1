@@ -1,6 +1,6 @@
-Rubro del sitio: Contexto y segmento de clientes orientado ejemplo: Ropa para caballero.
-Nombre del sitio:
-Nombre de dominio:
-Paleta de colores:
-Tipografía:
+Rubro del sitio: Venta de accesorios en linea para telefonos celulares. Para iPhones, Android. 
+Nombre del sitio: AccessOnline
+Nombre de dominio: OnlineAccesPhone.com
+Paleta de colores:https://color.adobe.com/es/My-Color-Theme-color-theme-11302251/edit/?copy=true
+Tipografía: Signika
 Boceto de página de inicio:
