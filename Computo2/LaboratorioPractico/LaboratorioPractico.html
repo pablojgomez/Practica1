@@ -4,7 +4,7 @@
 		<title>AccessOnline</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="css/Diseño.css">
+		<link rel="stylesheet" href="css/LaboratorioPractico.css">
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
@@ -13,45 +13,52 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		  <div class="container">
+		  <div class="container"><br>
+		  	<div class="jumbotron">
 		  <h1>AccessOnline</h1>
-		  <p>Venta de Accesorios en linea para telefonos celulares iPhones y Android.</p>
-		  
-		  <h5 class="text-center">Accesorios a la Venta</h5>
-		  <ul class="nav justify-content-center">
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Protectores Fisicos</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Protectores de Pantalla</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Cargadores</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link disabled" href="#">Buscar</a>
-		    </li>
-		  </ul>
+		  <p class="informacion">Venta de Accesorios en linea para telefonos celulares iPhones y Android.</p>
+		  </div>
 
+		  <div class="container">
+		  	<h5 align="center">Seleccione su Dispositivo</h5>
+		  		<ul class="nav justify-content-center">
+		    	<li class="nav-item dropdown"> 
+		      		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dispositivos</a>
+		      	<div class="dropdown-menu">
+		        	<a class="dropdown-item" href="#">iPhone</a>
+		        	<a class="dropdown-item" href="#">Android</a>
+		        </div>
+		    	</li>
+		  		</ul>
+		  </div>
 		  <br>
-
-		 <div class="container">
-		  <h5 align="center">Seleccione su Dispositivo</h5>
-		  <ul class="nav justify-content-center">
-		    <li class="nav-item dropdown"> 
-		      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dispositivos</a>
-		      <div class="dropdown-menu">
-		        <a class="dropdown-item" href="#">iPhone</a>
-		        <a class="dropdown-item" href="#">Android</a>
+		  
+		<div class="container">
+		  <h2>Accesorios Disponibles</h2>
+		  <div class="">
+		  <br>
+		  <ul class="nav nav-tabs" role="tablist">
+		    <li class="nav-item">
+		      <a class="nav-link active" data-toggle="tab" href="#home">Todos los Accesorios</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" data-toggle="tab" href="#menu1">Protectores Fisicos</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" data-toggle="tab" href="#menu2">Protectores de Pantalla</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" data-toggle="tab" href="#Menu3">Cargadores</a>
 		    </li>
 		  </ul>
 		</div>
 
-		<br><br>
-		<br><br>
+		  <div class="tab-content">
+		    <div id="home" class="container tab-pane active"><br>
+		      <h3>Accesorios para todos los Dispositivos</h3>
+		      <p>Todo tipo de Protectores Fisicos, Pantalla y cargadores de diferentes diseños y colores para tu dispositivo iPhone o Android</p>
 
-		<div class="container">
-		  <h3>Accesorios para todos los dispositivos</h3>            
+		      <div class="container">          
 		  <table class="table">
 		    <thead>
 		      <tr align="center">
@@ -63,47 +70,229 @@
 		    <tbody>
 		      <tr align="center">
 		        <td><p>iPhone 8 Plus</p>
-		        	<img height="80%" width="110%" src="img/ProtectorFisicoiPhone8Plus.jpg"><p>$15.50</p>
+		        	<img height="80%" width="115%" src="img/Todos/ProtectorFisicoiPhone8Plus.jpg"><p>$15.50</p>
 		        </td>
 		        
 		        <td><p>Galaxy Grand Prime</p>
-		        	<img height="24%" width="53%" src="img/ProtectordePantallaGrandPrime.jpg"><P>$5.00</P>
+		        	<img height="24%" width="55%" src="img/Todos/ProtectordePantallaGrandPrime.jpg"><P>$5.00</P>
 		        </td>
 
 		        <td><p>iPhone</p>
-		        	<img height="70%" width="110%" src="img/CargadoriPhone.jpg"><p>$12.75</p>
+		        	<img height="70%" width="110%" src="img/Todos/CargadoriPhone.jpg"><p>$12.75</p>
 		        </td>
 		      </tr>
 
 		      <tr align="center">
 		         <td><p>Galaxy S8</p>
-		        	<img height="60%" width="100%" src="img/ProtectorFisicoS8.jpg"><p>$10.50</p>
+		        	<img height="60%" width="117%" src="img/Todos/ProtectorFisicoS8.jpg"><p>$10.50</p>
 		        </td>
 		        
 		        <td><p>LG G3</p>
-		        	<img height="75%" width="60%" src="img/ProtectordePantallaLG.jpg"><P>$5.50</P>
+		        	<img height="75%" width="57%" src="img/Todos/ProtectordePantallaLG.jpg"><P>$5.50</P>
 		        </td>
 
 		        <td><p>Android</p>
-		        	<img height="57%" width="95%" src="img/CargadorNegroAndroid.jpg"><p>$12.00</p>
+		        	<img height="57%" width="108%" src="img/Todos/CargadorNegroAndroid.jpg"><p>$12.00</p>
 		        </td>
 		      </tr>
 
 		      <tr align="center"> 
 		         <td><p>iPhone 6</p>
-		        	<img height="57%" width="100%" src="img/ProtectorFisicoiPhone6.jpg"><p>$9.99</p>
+		        	<img height="57%" width="118%" src="img/Todos/ProtectorFisicoiPhone6.jpg"><p>$9.99</p>
 		        </td>
 		        
 		        <td><p>Galaxy J Serie</p>
-		        	<img height="41%" width="55%" src="img/ProtectordePantallaNegro.jpg"><P>$5.50 (Black)</P>
+		        	<img height="41%" width="57%" src="img/Todos/ProtectordePantallaNegro.jpg"><P>$5.50 (Black)</P>
 		        </td>
 
 		        <td><p>Android</p>
-		        	<img height="120%" width="90%" src="img/CargadorAndroid.jpg"><p>$12.00</p>
+		        	<img height="53%" width="110%" src="img/Todos/CableAndroidColores.png"><p>$12.00</p>
 		        </td>
 		      </tr>
 		    </tbody>
 		  </table>
 		</div>
+		</div>
+
+		    <div id="menu1" class="container tab-pane fade"><br>
+		      <h3>Protectores Fisicos</h3>
+		      <p>Protectores fisicos para los dispositivos iPhone y Android</p>
+
+		       <div class="container">          
+		  <table class="table">
+		    <thead>
+		      <tr align="center">
+		        <th>iPhone</th>
+		        <th>Android</th>
+		        <th>Todos</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr align="center">
+		        <td><p>iPhone X</p>
+		        	<img height="35%" width="65%" src="img/iPhone/ProtectorFisicoNegroiPhoneX.jpg"><p>$15.50</p>
+		        </td>
+		        
+		        <td><p>Galaxy S5<p>
+		        	<img height="180%" width="115%" src="img/Android/ProtectorFisicoCamuflajeS5.jpg"><P>$7.00</P>
+		        </td>
+
+		        <td><p>Samsung Galaxy Grand Prime</p>
+		        	<img height="45%" width="80%" src="img/Android/ProtectorFisicoElefanteGrandPrime.jpg"><p>$6.00</p>
+		        </td>
+		      </tr>
+
+		      <tr align="center">
+		         <td><p>iPhone 4</p>
+		        	<img height="52%" width="70%" src="img/iPhone/ProtectorFisicoRallasiPhone4.jpg"><p>$5.50</p>
+		        </td>
+		        
+		        <td><p>Huawei P8 Lite</p>
+		        	<img height="62%" width="115%" src="img/Android/ProtectorFisicoRosaHuaweiP8.jpg"><P>$7.00</P>
+		        </td>
+
+		        <td><p>iPhone X</p>
+		        	<img height="48%" width="80%" src="img/iPhone/ProtectorFisicoRojoiPhoneX.jpg"><p>$17.00</p>
+		        </td>
+		      </tr>
+
+		      <tr align="center"> 
+		         <td><p>iPhone 7</p>
+		        	<img height="31%" width="79%" src="img/iPhone/ProtectorFisicoNegroiPhone7.jpg"><p>$9.99</p>
+		        </td>
+		        
+		        <td><p>Nexus</p>
+		        	<img height="55%" width="115%" src="img/Android/ProtectorFisicoNegroNexus.jpg"><P>$6.50</P>
+		        </td>
+
+		        <td><p>Galaxy S5</p>
+		        	<img height="39%" width="80%" src="img/Android/ProtectorFisicoBlueS5.jpg"><p>$9.00</p>
+		        </td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</div>
+		</div>
+
+		    <div id="menu2" class="container tab-pane fade"><br>
+		      <h3>Protectores de Pantalla</h3>
+		      <p>Vidrios temprados para iPhone y Android, resistentes a golpes y caidas.</p>
+
+		       <div class="container">          
+		  <table class="table">
+		    <thead>
+		      <tr align="center">
+		        <th>iPhone</th>
+		        <th>Android</th>
+		        <th>Todos</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr align="center">
+		        <td><p>iPhone X</p>
+		        	<img height="65%" width="150%" src="img/iPhone/ProtectordePantallaiPhoneX.jpg"><p>$6.50</p>
+		        </td>
+		        
+		        <td><p>Galaxy J1<p>
+		        	<img height="70%" width="50%" src="img/Android/ProtectordePantallaGalaxyJ1.jpg"><P>$5.00</P>
+		        </td>
+
+		        <td><p>iPhone 5S</p>
+		        	<img height="90%" width="55%" src="img/iPhone/ProtectordePantallaiPhone5S.jpg"><p>$5.00</p>
+		        </td>
+		      </tr>
+
+		      <tr align="center">
+		         <td><p>iPhone 6</p>
+		        	<img height="52%" width="150%" src="img/iPhone/ProtectordePantallaWhiteiPhone6.jpg"><p>$5.50</p>
+		        </td>
+		        
+		        <td><p>Samsung Galaxy Grand Prime</p>
+		        	<img height="62%" width="55%" src="img/Android/ProtectordePantallaGalaxyGrandPrime.jpg"><P>$5.50</P>
+		        </td>
+
+		        <td><p>Galaxy S7</p>
+		        	<img height="78%" width="75%" src="img/Android/ProtectordePantallaGalaxyS7.jpg"><p>$5.00</p>
+		        </td>
+		      </tr>
+
+		      <tr align="center"> 
+		         <td><p>iPhone 7</p>
+		        	<img height="51%" width="160%" src="img/iPhone/ProtectordePantallaiPhone7.jpg"><p>$5.50</p>
+		        </td>
+		        
+		        <td><p>Alcatel A30</p>
+		        	<img height="55%" width="50%" src="img/Android/ProtectordePantallaGalaxyAlcatelA30.jpg"><P>$5.50</P>
+		        </td>
+
+		        <td><p>Alcatel POP C3</p>
+		        	<img height="22%" width="60%" src="img/Android/ProtectordePantallaPopC3.jpg"><p>$5.00</p>
+		        </td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</div>
+		</div>
+		   
+		    <div id="Menu3" class="container tab-pane fade"><br>
+		      <h3>Cargadores</h3>
+		      <p>Todo tipo de cables para iPhone y Android con diferentes colores y materiales</p>
+
+		      <div class="container">          
+		  <table class="table">
+		    <thead>
+		      <tr align="center">
+		        <th>iPhone</th>
+		        <th>Android</th>
+		        <th>Todos</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr align="center">
+		        <td><p>iPhone</p>
+		        	<img height="45%" width="110%" src="img/iPhone/CableiPhoneRed.jpg"><p>$12.50</p>
+		        </td>
+		        
+		        <td><p>Android<p>
+		        	<img height="80%" width="70%" src="img/Android/CableAndroidBlack.jpeg"><P>$8.00</P>
+		        </td>
+
+		        <td><p>iPhone y Android</p>
+		        	<img height="43%" width="80%" src="img/Android/CableAndroidMulti.jpg"><p>$15.75</p>
+		        </td>
+		      </tr>
+
+		      <tr align="center">
+		         <td><p>iPhone</p>
+		        	<img height="62%" width="110%" src="img/iPhone/CableiPhoneGros.jpg"><p>$10.50</p>
+		        </td>
+		        
+		        <td><p>Android</p>
+		        	<img height="27%" width="70%" src="img/Android/CableAndroidBlue.jpg"><P>$10.50</P>
+		        </td>
+
+		        <td><p>iPhone</p>
+		        	<img height="70%" width="65%" src="img/iPhone/CableiPhoneAmazon.jpg"><p>$12.00</p>
+		        </td>
+		      </tr>
+
+		      <tr align="center"> 
+		         <td><p>iPhone</p>
+		        	<img height="80%" width="115%" src="img/iPhone/CableiPhone.jpg"><p>$11.99</p>
+		        </td>
+		        
+		        <td><p>Android</p>
+		        	<img height="45%" width="70%" src="img/Android/CableAndroidRosa.jpg"><P>$12.50</P>
+		        </td>
+
+		        <td><p>Android</p>
+		        	<img height="36%" width="85%" src="img/iPhone/CableiPhoneBlack.jpg"><p>$10.00</p>
+		        </td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</div>
+		</div>
+
 	</body>
 </html>
