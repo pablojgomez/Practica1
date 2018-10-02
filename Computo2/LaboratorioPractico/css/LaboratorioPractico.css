@@ -15,6 +15,18 @@ h1, .informacion{
 
 }
 
+.row > div {
+	padding: 10px;
+	background: #ddd;
+	border: 1px salid #fff;
+	text-align: center;
+}
+
+.row{
+	margin: 40px auto;
+	background-color: #401316;
+}
+
 li {
     float: left;
 }
@@ -29,35 +41,16 @@ li a, {
 
 li a:hover, .dropdown:hover {
     background-color: #401316;
+    color: #F7F4D7;
 }
 
 li.dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #401316;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #401316;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
 
 .dropdown-content a:hover {
 	background-color: #401316
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
- }
 
 
