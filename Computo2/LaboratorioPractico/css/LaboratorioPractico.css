@@ -4,10 +4,20 @@ body{
 
 .jumbotron{
 	background-color: #401316;
+	font-family: 'Indie Flower', cursive;
+
 }
 
-h1, .informacion{
+
+h1 {
 	color: #F7F4D7;
+	font-size: 50px
+
+}
+.informacion{
+	color: #F7F4D7;
+	font-size: 17px;
+	font-family: 'Indie Flower', cursive;
 }
 
 .container, a{
@@ -17,14 +27,21 @@ h1, .informacion{
 
 .row > div {
 	padding: 10px;
-	background: #ddd;
 	border: 1px salid #fff;
 	text-align: center;
+	color: #F7F4D7;
+	font-family: 'Indie Flower', cursive;
 }
 
-.row{
+.row {
 	margin: 40px auto;
+	background-color: #091F1B;
+}
+
+.tipodeacce{
 	background-color: #401316;
+	color: #F7F4D7;
+
 }
 
 li {
@@ -37,11 +54,13 @@ li a, {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Indie Flower', cursive;
 }
 
 li a:hover, .dropdown:hover {
     background-color: #401316;
     color: #F7F4D7;
+
 }
 
 li.dropdown {
@@ -51,6 +70,33 @@ li.dropdown {
 
 .dropdown-content a:hover {
 	background-color: #401316
+}
+
+.minimenu{
+	z-index: 1000;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
 
 
