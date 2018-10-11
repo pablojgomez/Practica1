@@ -5,7 +5,7 @@ Nombre de la Base de datos:
 
 Formulario llevara:
 - Nombre del Producto
-- Cantidad de Productos
+- Cantidad de Productos(a vender)
 - Precio del Producto
 - Marca de Producto
 - Fecha de venta
